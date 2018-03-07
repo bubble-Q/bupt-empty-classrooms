@@ -1,0 +1,22 @@
+{
+  "author": "Qin",
+  "name":"北邮空教室查询",
+  "version":"0.1",
+  "description":"北邮空教室查询",
+
+  "permissions":[
+    "http://jwxt.bupt.edu.cn/"
+  ],
+
+  "icons": {"128": "icon/icon.png" },
+
+  "browser_action":{
+    "default_title":"北邮空教室查询",
+    "default_icon": {
+      "30": "icon/icon.png"
+    },
+    "default_popup":"popup.html"
+  },
+
+  "manifest_version":2
+}
